@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQWeb.Watermark", "RabbitMQWeb.Watermark\RabbitMQWeb.Watermark.csproj", "{FAFD2E26-168E-4258-8CDC-61ADA53B5668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.Watermark", "RabbitMQWeb.Watermark\RabbitMQWeb.Watermark.csproj", "{FAFD2E26-168E-4258-8CDC-61ADA53B5668}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.ExcelCreate", "RabbitMQWeb.ExcelCreate\RabbitMQWeb.ExcelCreate.csproj", "{741FF31A-7FED-4FF5-ACCD-0E90437C3B1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{F083834B-F737-4C62-B937-AFCEE2D3EBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{05D7F28F-28B6-4941-A2F0-919E0679E578}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FAFD2E26-168E-4258-8CDC-61ADA53B5668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFD2E26-168E-4258-8CDC-61ADA53B5668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFD2E26-168E-4258-8CDC-61ADA53B5668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741FF31A-7FED-4FF5-ACCD-0E90437C3B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741FF31A-7FED-4FF5-ACCD-0E90437C3B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741FF31A-7FED-4FF5-ACCD-0E90437C3B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741FF31A-7FED-4FF5-ACCD-0E90437C3B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F083834B-F737-4C62-B937-AFCEE2D3EBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F083834B-F737-4C62-B937-AFCEE2D3EBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F083834B-F737-4C62-B937-AFCEE2D3EBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F083834B-F737-4C62-B937-AFCEE2D3EBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D7F28F-28B6-4941-A2F0-919E0679E578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D7F28F-28B6-4941-A2F0-919E0679E578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D7F28F-28B6-4941-A2F0-919E0679E578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D7F28F-28B6-4941-A2F0-919E0679E578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
